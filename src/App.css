@@ -1,0 +1,42 @@
+/* write your css here */
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #1FA2FF 0%, #12D8FA 50%, #A6FFCB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+@media screen and ( 200px < width < 1200px) {
+    .codeBlocks{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.homepage_bg{
+    background: url('../src/assets/Images/bghome.svg');
+}
+
+.inputBoxShadow{
+    box-shadow: 0px 1px  rgba(255,255,255,0.6);
+}
+
+.login{
+    /* background: url(./assets/Images/frame.png); */
+    /* background-size: 100% 100%; */
+    
+}
+
+.frame{
+    
+
+}
